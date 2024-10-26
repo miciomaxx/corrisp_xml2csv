@@ -9,7 +9,7 @@ def format_currency(value):
     if value is not None:
         try:
             value = float(value)
-            return f'{value:,.2f}'.replace('.', ',')
+            return f'{value:.2f}'.replace('.', ',')
         except ValueError:
             return value
     return value
