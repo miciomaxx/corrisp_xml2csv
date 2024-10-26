@@ -5,7 +5,7 @@ import zipfile
 import shutil
 
 def format_currency(value):
-    #Converte un valore in formato 999.99 in formato 999,99.
+    #Converte un valore in formato 9999.99 in formato 9999,99.
     if value is not None:
         try:
             value = float(value)
